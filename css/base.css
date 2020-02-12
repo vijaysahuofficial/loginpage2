@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(238, 39, 39, 0.2)), url(../img/back.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   max-width: 1926px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+   
+    
+}
+
+.box{
+    margin-top: 10vh;
+    width: 35%;
+    background-color: rgba(253, 254, 255, 0.863);
+    border-radius: 5px;
+    height: 70vh;
+    padding: 20px;
+    
+}
+
+.singin{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgb(184, 181, 181);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.lock-icon{
+    color: rgba(61, 200, 255, 0.829);
+    font-size: 7.5em;
+    text-shadow: 2px 2px 2px rgb(184, 181, 181);
+}
+.main-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.username{
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.password{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.login{
+   margin: 0 auto;
+    padding: 20px; 
+    margin-bottom: 10px;
+    width: 50%;
+    cursor: pointer;
+    background-color: rgba(61, 200, 255, 0.829);
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 20px;
+    
+}
+.forget{
+    margin: 0 auto;
+}
+
+.forget a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+   position: relative;
+   top: 3vh;
+}
+
+
+
